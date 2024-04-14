@@ -127,7 +127,7 @@ color:#000000;
     height: 867px;
     margin-top: 30px;
     margin-left: 82px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: relative;  
 }
 
@@ -156,10 +156,16 @@ background-color: #FFF5DB;
     margin-top: 120px;
     }
 
+    .box-div {
+        width: 405px;
+        height: 154px;
+        margin-bottom: -80px;
+    }
+
 .pink-div {
     width: 120px;
     height: 120px;
-    margin-top: -60px;
+    margin-top: -200px;
     margin-left:  1177px;
     border-radius: 60px;
     border: 8.8px solid #FF007A
@@ -201,10 +207,11 @@ background-color: #FFF5DB;
     display: flex;
 }
 
+/* BUSINESS IDEA PLANNING  */
 .group65 {
     width: 308px;
     height: 379px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     background-color: #FFFFFF;
     border-radius: 40px;
     position: absolute;
@@ -262,16 +269,7 @@ margin-top: 20px;
     justify-content: center;
 }
 
-.group66 {
-    width: 308px;
-    height: 379px;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    border-radius: 40px;
-    position: absolute;
-    left: 900px;
-    bottom: 145px;
-}
+/* FINANCIAL PLANNING SYSTEM  */
 
 .wallet {
     background-color: #FFF7E3;
@@ -283,6 +281,17 @@ margin-top: 20px;
      align-items: center;
      margin-top: 40px;
      border-radius: 20px;
+}
+
+.group66 {
+    width: 308px;
+    height: 379px;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    left: 930px;
+    bottom: 145px;
 }
 
 .group-txt-div2 {
@@ -306,14 +315,159 @@ margin-top: 20px;
 
 .group-txt2> p {
     width: 245px;
-height: 44px;
-font-family: 'Averta Demo PE Cutted Demo';
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: center;
-color: #757575;
-margin-top: 20px;
+    height: 44px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+    margin-top: 20px;
+}
 
+/* DEVELOPMENT WEBSITE AND APP  */
 
+.core {
+    background-color: #FFF2F8;
+    width: 121px;
+    height: 121px;
+     border-radius: 20px 0px 0px 0px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+     border-radius: 29px;
+}
+
+/* .group-txt-div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.group67 {
+    width: 308px;
+    height: 379px;
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+
+.group-txt3 >h1{
+    width: 239px;
+    height: 60px; 
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.66px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.group-txt3 > p {
+    width: 245px;
+    height: 44px; 
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+/* MARKET ANALYSIS PROJECT  */
+.chart-square {
+    background-color: #DEFFEE;
+    width: 121px;
+    height: 121px;
+     border-radius: 20px 0px 0px 0px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+     border-radius: 29px;
+}
+
+.group68 {
+    width: 308px;
+    height: 379px;
+    /* border: 1px solid blueviolet; */
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    left: 930px;
+    top: 120px;
+}
+
+/* GREAT DIGITAL PRODUCT SECTION  */
+.product-section {
+    width: 1200px;
+    height: 436px;
+    border-color: 1px solid blue;
+    margin-top: 50px;
+    margin-left: 120px; 
+    position: relative;
+}
+
+.product-div {
+    display: flex;
+    align-items: center;
+}
+
+.play-btn {
+    position: absolute;
+    left: 270px;
+    bottom: 185px;
+}
+
+.eclipse-div {
+    width: 129px;
+    height: 130px;
+    background-color: #FFF5DB;
+    border-radius: 65px;
+    margin-top: -140px;
+    margin-left: 500px;
+}
+
+.rectangle {
+    width: 178px;
+    height: 178px;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #EFF1FF;
+}
+
+.product-txt > h1 {
+    position: absolute;
+    top: 150px;
+    padding-left: 40px;
+    width: 468px;
+    height: 98px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.product-txt > p {
+    width: 532px;
+    height: 104px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+    position: absolute;
+    bottom: 45px;
+    padding-left: 40px;
+}
+.product-txt {
+    margin-left: 50px;
 }
