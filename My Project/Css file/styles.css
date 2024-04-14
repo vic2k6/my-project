@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-    padding-right: 230px;
+    padding-right: 150px;
 }
 
 nav>a {
@@ -96,8 +96,224 @@ text-align: center;
 }
 
 /* CLIENGT SECTION  */
+.client-section {
+    width: 1199.55px;
+height: 124px;
+top: 764px;
+margin-left: 120px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.client-section > h1 {
+    font-family: 'Averta Demo PE Cutted Demo';
+font-size: 40px;
+font-weight: 400;
+line-height: 49.44px;
+text-align: left;
+color:#000000;
+}
 .client-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* HOW CAN WE HELP SECTION  */
+
+.services-section {
+    width: 1358px;
+    height: 867px;
+    margin-top: 30px;
+    margin-left: 82px;
+    border: 1px solid blue;
+    position: relative;  
+}
+
+.help-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yellow {
+    width: 178px;
+height: 178px;
+top: 1460px;
+left: 260px;
+gap: 0px;
+border-radius: 100px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFF5DB;
+}
+
+.blue {
+    width: 1047px;
+    height: 619px;
+    border-radius: 150px 0px 0px 0px;
+    background-color: #F4F9FF;
+    margin-top: 120px;
+    }
+
+.pink-div {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left:  1177px;
+    border-radius: 60px;
+    border: 8.8px solid #FF007A
+}
+
+.services-div {
+    position: absolute;
+    top: 280px;
+}
+
+
+.business > h1 {
+    width: 396px;
+    height: 52px;
+    margin-left: 65px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 49.44px;
+    text-align: left;
+    color: black;
+    margin-top: 60px;
+}
+
+.business > p {
+    width: 396px;
+    height: 52px;
+    margin-left: 65px;
+    margin-top: 80px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+}
+
+.pretty {
+    display: flex;
+}
+
+.group65 {
+    width: 308px;
+    height: 379px;
+    border: 1px solid yellow;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    left: 550px;
+    bottom: 70px;
+    
+}
+
+.group-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-search {
+    background-color:#F1F7FF;
+    width: 121px;
+    height: 121px;
+     border-radius: 20px 0px 0px 0px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+     border-radius: 29px;
+}
+
+.group-txt > h1 {
+    width: 167px;
+    height: 60px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.66px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.group-txt > p {
+    width: 245px;
+height: 44px;
+font-family: 'Averta Demo PE Cutted Demo';
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: center;
+color: #757575;
+margin-top: 20px;
+}
+
+.group-txt-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group66 {
+    width: 308px;
+    height: 379px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    left: 900px;
+    bottom: 145px;
+}
+
+.wallet {
+    background-color: #FFF7E3;
+    width: 121px;
+    height: 121px;
+     border-radius: 20px 0px 0px 0px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+     border-radius: 20px;
+}
+
+.group-txt-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-txt2 > h1{
+    width: 199px;
+    height: 60px; 
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.66px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.group-txt2> p {
+    width: 245px;
+height: 44px;
+font-family: 'Averta Demo PE Cutted Demo';
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: center;
+color: #757575;
+margin-top: 20px;
+
+
 }
