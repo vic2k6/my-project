@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body {
+    font-family: 'Averta Demo PE Cutted Demo';
+}
+
 /* HEADER SECTION  */
 
 header {
@@ -470,4 +474,113 @@ margin-top: 20px;
 }
 .product-txt {
     margin-left: 50px;
+}
+
+/* WHAT OUR HAPPY CLIENT SAY  */
+
+.happy-client-section {
+    width: 1264px;
+    height: 597px;
+    margin-left: 107px;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+    }
+
+.happy-div > h1 {
+    margin-bottom: 20px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 49.44px;
+    text-align: center;
+    color: black;
+}
+
+.happy-div  >p {
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #757575;
+}
+
+.happy-client-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.mathew-img {
+    margin-top: 70px;
+}
+.mathew-paul > h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 153px;
+    height: 30px;
+    font-family: A'verta Demo PE Cutted Demo';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.66px;
+    text-align: center;
+}
+
+.mathew-paul >p {
+    width: 412px;
+    height: 78px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+    
+}
+
+.pink-div2 {
+    width: 120px;
+    height: 120px;
+    margin-top: -200px;
+    margin-left: 20px;
+    border-radius: 60px;
+    border: 8.8px solid #FF007A
+}
+
+.slides {
+    display: flex;
+
+    align-items: center;
+}
+
+.blue-div {
+    width: 16px;
+    height: 16px;
+    background-color: #2639ED;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+}
+
+.grey-div {
+    width: 16px;
+    height: 16px;
+    background-color:#E7F0FC;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.yellow-div {
+    width: 184px;
+    height: 184px;
+    background-color: #FFF5DB;
+    border-radius: 92px;
+   margin-left: 930px;
+   margin-top: -310px;
+    
+   
+
 }
