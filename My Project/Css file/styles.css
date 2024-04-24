@@ -38,6 +38,14 @@ nav>a {
     color: black;
     cursor: pointer;
 }
+nav > a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+nav > a:active {
+    background-color: greenyellow;
+    color: white;
+}
 
 
 /* HERO SECTION  */
@@ -169,7 +177,7 @@ nav>a {
     margin-top: 20px;
 }
 
-/* HOW CAN WE HELP SECTION  */
+/* HOW CAN WE HELP YOUR BUSINESS SECTION  */
 
 .services-section {
     width: 1358px;
@@ -273,6 +281,9 @@ nav>a {
 .group65:hover {
     background-color:#F1F7FF;
 }
+.group65:active{
+    background-color: greenyellow;
+}
 
 .group-div {
     display: flex;
@@ -342,6 +353,10 @@ margin-top: 20px;
     background-color: #FFF7E3;
 }
 
+.group66:active{
+    background-color: greenyellow;
+}
+
 .wallet {
     background-color: #FFF7E3;
     width: 121px;
@@ -402,6 +417,10 @@ margin-top: 20px;
 .group67:hover {
     background-color: #FFF2F8;
 }
+ 
+.group67:active{
+    background-color: greenyellow;
+}
 
 .core {
     background-color: #FFF2F8;
@@ -459,6 +478,10 @@ margin-top: 20px;
 .group68:hover {
     background-color: #DEFFEE;
 }
+.group68:active{
+    background-color: greenyellow;
+}
+
 
 .chart-square {
     background-color: #DEFFEE;
