@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Averta Demo PE Cutted Demo';
+    /* max-width: 1440px; */
 }
 
 /* HEADER SECTION  */
@@ -17,7 +18,14 @@ header {
     justify-content: space-between;
     margin-top: 50px;
     align-items: center;
+    max-width:  1440px;
+    flex-shrink: 1;
 }
+
+header > img {
+    cursor: pointer;
+}
+
 .logo {
     padding-left: 100px;
 }
